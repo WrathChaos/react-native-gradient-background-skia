@@ -1,1 +1,1 @@
-// Your main export will be here
+export { default } from "./GradientBackgroundSkia";

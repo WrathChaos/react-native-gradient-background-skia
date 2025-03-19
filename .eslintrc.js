@@ -109,7 +109,6 @@ module.exports = {
         constant: "always",
       },
     ],
-    "import/no-extraneous-dependencies": "error",
     "import/no-named-as-default-member": "error",
     "import/no-duplicates": "error",
     "import/no-useless-path-segments": "error",

@@ -1,14 +1,23 @@
 {
-  "name": "react-native-typescript-library-starter",
-  "version": "1.4.0",
+  "name": "react-native-gradient-background-skia",
+  "version": "1.0.9",
   "description": "Extremely easy to create a React Native Component Library with both Stateful and Functional Component Examples.",
   "main": "./build/dist/index.js",
-  "repository": "git@github.com:WrathChaos/react-native-typescript-library-starter.git",
+  "repository": "git@github.com:WrathChaos/react-native-gradient-background-skia.git",
   "author": "FreakyCoder <kurayogun@gmail.com>",
   "license": "MIT",
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-typescript-library-starter/issues",
+  "bugs": "https://github.com/WrathChaos/react-native-gradient-background-skia/issues",
+  "files": [
+    "/build",
+    "/lib"
+  ],
   "keywords": [
+    "react-native-gradient-background-skia",
+    "react-native-gradient-background",
+    "react-native-gradient",
+    "react-native-gradient-skia",
+    "react-native-linear-gradient",
     "FreakyCoder",
     "freakycoder",
     "kuray",
@@ -59,5 +68,8 @@
     "react-native-typescript-transformer": "^1.2.13",
     "semantic-release": "^24.1.1",
     "typescript": "^5.6.0"
+  },
+  "peerDpendencies": {
+    "@shopify/react-native-skia": ">= 1.11.18"
   }
 }
