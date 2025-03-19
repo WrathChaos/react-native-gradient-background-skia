@@ -4,6 +4,22 @@ A high-performance linear gradient component for React Native using Skia.
 
 ![Gradient Examples](assets/Screenshots/example.png)
 
+## Why?
+
+This package was created to address the limitations and maintenance issues with `react-native-linear-gradient`. While `react-native-linear-gradient` has been widely used, it has several drawbacks:
+
+- Not actively maintained for the latest React Native versions
+- Performance issues with complex gradients
+- Limited support for modern React Native features
+- Inconsistent behavior across different platforms
+
+`react-native-gradient-background-skia` solves these problems by:
+
+- Using Skia, a high-performance 2D graphics library
+- Providing better performance for complex gradients
+- Ensuring consistent behavior across platforms
+- Being actively maintained for the latest React Native versions
+
 ## Features
 
 - 🚀 High performance using Skia
