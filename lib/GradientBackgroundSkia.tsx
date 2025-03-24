@@ -25,6 +25,7 @@ interface GradientBackgroundSkiaProps {
   borderBottomRightRadius?: number;
   borderTopLeftRadius?: number;
   borderTopRightRadius?: number;
+  testID?: string;
   children?: React.ReactNode;
 }
 
@@ -39,6 +40,7 @@ const GradientBackgroundSkia: React.FC<GradientBackgroundSkiaProps> = ({
   borderTopLeftRadius,
   borderTopRightRadius,
   children,
+  testID,
   ...rest
 }) => {
   const [width, setWidth] = useState(0);
@@ -106,7 +108,7 @@ const GradientBackgroundSkia: React.FC<GradientBackgroundSkiaProps> = ({
   }, [width, height, colors, start, end]);
 
   return (
-    <View style={style} onLayout={onLayout} {...rest}>
+    <View style={style} onLayout={onLayout} testID={testID} {...rest}>
       {width > 0 && height > 0 && path && paint && (
         <Canvas style={StyleSheet.absoluteFill}>
           <Group>
